@@ -3,6 +3,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden; }
@@ -73,7 +74,8 @@ hr.more {
   border-top: solid 5px; }
 
 hr.more:after {
-  font-family: FontAwesome;
+  /*font-family: Advent Pro;*/
+  font-family: Arial;
   font-size: 2em;
   position: relative; 
   top: -.8em;
@@ -136,6 +138,7 @@ section.success {
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
+    font-family: 'Quicksand', sans-serif; 
     font-size: 1.1rem;
     color: white; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -149,6 +152,11 @@ section.success {
         outline: none; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: white; }
+  /**/
+  .nav-link {
+    font-family: Maven Pro;
+  }
+  /**/
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
