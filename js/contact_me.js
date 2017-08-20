@@ -22,7 +22,7 @@ $(function() {
             }
             $.ajax({
                 //url: "././mail/contact_me.php",
-                url: "https://script.google.com/macros/s/AKfycbx6VAUcHDNzLmHXKJwZezezblekg-pmfyS6d1x934ehGecECqrE/exec",
+                url: "https://script.google.com/macros/s/AKfycbyguPn98bfyhmG4J82MauebUJ-qNnRWS2NZ5osnmvgjxlyVx7JO/exec",
                 type: "POST",
                 data: {
                     name: name,
