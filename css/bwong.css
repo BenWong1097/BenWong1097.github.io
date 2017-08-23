@@ -18,3 +18,17 @@
 .head-section {
 	background-image: url(../img/intro-bg.png);
 }
+
+.more-section {
+	background-image: url(../img/more-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+.more-text {
+	font-family: Dosis;
+	text-align: left;
+	margin-right: 50%;
+}

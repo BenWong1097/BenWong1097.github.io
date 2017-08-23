@@ -1557,6 +1557,7 @@ pre code {
   width: 100%;
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
+  font-color: white;
   line-height: 1.25;
   color: #495057;
   background-color: #fff;
@@ -1590,7 +1591,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #868e96;
+  color: white;
   opacity: 1;
 }
 
