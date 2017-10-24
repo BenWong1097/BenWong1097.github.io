@@ -13,6 +13,7 @@
 	width: auto;
 	opacity: 0.5;
 	margin-left:4rem;
+	margin-bottom: 2rem;
 	-webkit-transition: opacity 0.5s;
 	transition: opacity 0.5s;
 }
