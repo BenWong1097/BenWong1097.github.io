@@ -22,7 +22,15 @@
 }
 
 .head-section {
-	background-image: url(../img/intro-bg.png);
+	text-align: center;
+	color: white;
+	background-image: url('../img/profpic.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 35%;
+	padding-bottom: 5%;
+	color: #2F6841;
 }
 
 .more-section {
@@ -37,4 +45,18 @@
 	font-family: Dosis;
 	text-align: left;
 	margin-right: 50%;
+}
+
+.bg-white{
+	background-color: #FFFFFF;
+}
+
+.bg2{
+	background-color: rgba(47,104,65, 0.7);
+}
+
+.intro-section{
+	padding: 10px 30px;
+	margin: 0% 10% 0% 10%;
+	outline: #FFFFFF ridge thin;
 }
