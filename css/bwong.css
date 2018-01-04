@@ -24,15 +24,37 @@
 .head-section {
 	text-align: center;
 	color: white;
-	background-image: url('../img/profpic.jpg');
+	background-image: 
+		linear-gradient(
+			to bottom,
+			rgba(255,255,255,0) 85%,
+			rgba(255,255,255,1) 90%
+		),
+		url('../img/profpic-front.png'),
+		url('../img/profpic-back.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	padding-top: 35%;
-	padding-bottom: 5%;
+	padding-bottom: 0%;
 	color: #2F6841;
+	/*background: linear-gradient(
+		to bottom,
+		rgba(0,0,0,0) 50%,
+		rgba(0,0,0,0) 100%
+	);*/
 }
-
+.head-section::before{
+	position:absolute;
+	content: '';
+	background-image: url('../img/profpic-front.png');
+	width: 10%;
+	height: 10%;
+}
+#wrap{
+	position: relative;
+	display: inline-block;
+}
 .more-section {
 	background-image: url(../img/more-bg.png);
 	background-repeat: no-repeat;
