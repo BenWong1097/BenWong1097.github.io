@@ -35,7 +35,7 @@
 		url('../img/profpic-back.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: 0 0;
+	background-position: center;
 	padding-top: 35%;
 	padding-bottom: 0%;
 	color: #2F6841;
@@ -83,4 +83,5 @@
 	width: 50vw;
 	/*margin: 0% 10% 0% 10%;*/
 	outline: #FFFFFF ridge thin;
+	margin: 0 auto;
 }
