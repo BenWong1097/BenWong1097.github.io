@@ -80,6 +80,7 @@
 
 .intro-section{
 	padding: 10px 30px;
-	margin: 0% 10% 0% 10%;
+	width: 50vw;
+	/*margin: 0% 10% 0% 10%;*/
 	outline: #FFFFFF ridge thin;
 }
