@@ -24,7 +24,7 @@
 .head-section {
 	text-align: center;
 	color: white;
-	min-width: 1024px;
+	/*min-width: 1024px;*/
 	background-image: 
 		linear-gradient(
 			to bottom,

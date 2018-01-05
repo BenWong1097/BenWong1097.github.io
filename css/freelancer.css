@@ -169,7 +169,7 @@ section.success {
       border-color: #B6CDB1;
       background-color: #B6CDB1; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
