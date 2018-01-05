@@ -30,9 +30,9 @@
 			to bottom,
 			rgba(255,255,255,0) 85%,
 			rgba(255,255,255,1) 90%
-		)/*,
+		),
 		url('../img/profpic-front.png'),
-		url('../img/profpic-back.jpg')*/;
+		url('../img/profpic-back.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 0 0;
