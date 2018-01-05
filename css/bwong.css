@@ -24,6 +24,7 @@
 .head-section {
 	text-align: center;
 	color: white;
+	min-width: 1024px;
 	background-image: 
 		linear-gradient(
 			to bottom,
@@ -34,7 +35,7 @@
 		url('../img/profpic-back.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 0 0;
 	padding-top: 35%;
 	padding-bottom: 0%;
 	color: #2F6841;
