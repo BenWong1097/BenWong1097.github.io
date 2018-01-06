@@ -45,30 +45,6 @@
 		rgba(0,0,0,0) 100%
 	);*/
 }
-@media (min-width: 768px){
-	.head-section{/*length-wise phone*/
-		background-image:
-			linear-gradient(
-				to bottom,
-				rgba(255,255,255,0) 85%,
-				rgba(255,255,255,1) 90%
-			),
-			url('../img/profpic-front.png'),
-			url('../img/profpic-back.jpg');
-	}
-}
-@media (min-width: 960px){
-	.head-section{/*reg-window*/
-		background-image:
-			linear-gradient(
-				to bottom,
-				rgba(255,255,255,0) 85%,
-				rgba(255,255,255,1) 90%
-			),
-			url('../img/profpic-front.png'),
-			url('../img/profpic-back.jpg');
-	}
-}
 
 .head-section::before{
 	position:absolute;
@@ -109,4 +85,29 @@
 	/*margin: 0% 10% 0% 10%;*/
 	outline: #FFFFFF ridge thin;
 	margin: 0 auto;
+}
+
+@media (min-width: 660px){
+	.head-section{/*length-wise phone*/
+		background-image:
+			linear-gradient(
+				to bottom,
+				rgba(255,255,255,0) 85%,
+				rgba(255,255,255,1) 90%
+			),
+			url('../img/profpic-front.png'),
+			url('../img/profpic-back3.jpg');
+	}
+}
+@media (min-width: 960px){
+	.head-section{/*reg-window*/
+		background-image:
+			linear-gradient(
+				to bottom,
+				rgba(255,255,255,0) 85%,
+				rgba(255,255,255,1) 90%
+			),
+			url('../img/profpic-front.png'),
+			url('../img/profpic-back.jpg');
+	}
 }
