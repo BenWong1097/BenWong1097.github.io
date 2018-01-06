@@ -32,7 +32,7 @@
 			rgba(255,255,255,1) 90%
 		),
 		url('../img/profpic-front.png'),
-		url('../img/profpic-back2.jpg');
+		url('../img/profpic-back4.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -44,14 +44,6 @@
 		rgba(0,0,0,0) 50%,
 		rgba(0,0,0,0) 100%
 	);*/
-}
-
-.head-section::before{
-	position:absolute;
-	content: '';
-	background-image: url('../img/profpic-front.png');
-	width: 10%;
-	height: 10%;
 }
 #wrap{
 	position: relative;
@@ -84,7 +76,8 @@
 	width: 90vw;
 	/*margin: 0% 10% 0% 10%;*/
 	outline: #FFFFFF ridge thin;
-	margin: 0 auto;
+	margin: 60% 0 auto;
+	font-size: 10px;
 }
 
 @media (min-width: 660px){
