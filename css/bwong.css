@@ -93,6 +93,7 @@
 	}
 	.intro-section{
 		width: 75vw;
+		margin: 0 auto;
 	}
 }
 @media (min-width: 960px){
