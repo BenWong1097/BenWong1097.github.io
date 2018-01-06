@@ -81,7 +81,7 @@
 
 .intro-section{
 	padding: 10px 30px;
-	width: 50vw;
+	width: 90vw;
 	/*margin: 0% 10% 0% 10%;*/
 	outline: #FFFFFF ridge thin;
 	margin: 0 auto;
@@ -98,6 +98,9 @@
 			url('../img/profpic-front.png'),
 			url('../img/profpic-back3.jpg');
 	}
+	.intro-section{
+		width: 75vw;
+	}
 }
 @media (min-width: 960px){
 	.head-section{/*reg-window*/
@@ -109,5 +112,8 @@
 			),
 			url('../img/profpic-front.png'),
 			url('../img/profpic-back.jpg');
+	}
+	.intro-section{
+		width: 50vw;
 	}
 }
