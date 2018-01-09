@@ -1,3 +1,5 @@
+/*Disclaimer: Some of these probably are not used due to ongoing development ;)*/
+
 /*list id*/
 .skill-icon {
 	align-items: center;
@@ -80,6 +82,24 @@
 	font-size: 10px;
 }
 
+.nav-arrow{
+	font-size: 50pt;
+	padding-top:15%;
+	display: none;
+	cursor: pointer;
+	color: #B6CDB1;
+}
+.nav-arrow2{
+	font-size: 25pt;	
+	cursor: pointer;
+	color: #B6CDB1;
+}
+.not-active{
+	font-size: 30pt;
+	/*background-color: #777777;*/
+	pointer-events: none;
+	/*cursor: default;*/
+}
 @media (min-width: 660px){
 	.head-section{/*length-wise phone*/
 		background-image:
@@ -109,5 +129,15 @@
 	}
 	.intro-section{
 		width: 50vw;
+	}
+	.nav-arrow{
+		display: block;
+	}
+	.nav-arrow2{
+		font-size: 40pt;
+		display: block;
+	}
+	.not-active{
+		font-size: 45pt;
 	}
 }
