@@ -90,12 +90,14 @@
 	color: #B6CDB1;
 }
 .nav-arrow2{
-	font-size: 25pt;	
+	font-size: 30pt;	
 	cursor: pointer;
 	color: #B6CDB1;
+	padding-right: 8%;
+	margin-top: -20pt;
 }
 .not-active{
-	font-size: 30pt;
+	font-size: 35pt;
 	/*background-color: #777777;*/
 	pointer-events: none;
 	/*cursor: default;*/
@@ -114,6 +116,10 @@
 	.intro-section{
 		width: 75vw;
 		margin: 0 auto;
+	}
+	.nav-arrow2{
+		display: block;
+		padding-right: 55px;
 	}
 }
 @media (min-width: 960px){
@@ -136,6 +142,8 @@
 	.nav-arrow2{
 		font-size: 40pt;
 		display: block;
+		padding-right: 0%;
+		margin-top: 0;
 	}
 	.not-active{
 		font-size: 45pt;
