@@ -22,6 +22,28 @@
 .skill-logo:hover {
 	opacity: 1;
 }
+ul.skill-icon li{
+	position: relative;
+	display: inline-block;
+}
+ul.skill-icon > li:before{
+	content: attr(data-content);
+	color: white;
+	position: absolute;
+	top: 75%;
+	left: 45%;
+	width: 60%;
+	height: 20%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.75);
+	z-index: 1;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+ul.skill-icon:hover li:before{
+	opacity: 1;
+}
 
 .head-section {
 	text-align: center;
@@ -98,9 +120,8 @@
 }
 .not-active{
 	font-size: 35pt;
-	/*background-color: #777777;*/
 	pointer-events: none;
-	/*cursor: default;*/
+	/*visibility: hidden;*/
 }
 @media (min-width: 660px){
 	.head-section{/*length-wise phone*/

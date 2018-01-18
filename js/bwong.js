@@ -22,3 +22,12 @@ var resetModal = function(){
 }
 
 $("div.nav-arrow2").click(function(){setTimeout(resetModal, 500)});
+
+$(function(){
+	$("#skill_cpp").attr('data-content', 'C++');
+	$("#skill_python").attr('data-content', 'Python');
+	$("#skill_java").attr('data-content', 'Java');
+	$("#skill_javascript").attr('data-content', 'Javascript');
+	$("#skill_matlab").attr('data-content', 'Matlab');
+	console.log($("#skill_cpp").attr("data-content"));
+});
