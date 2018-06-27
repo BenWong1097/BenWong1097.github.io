@@ -292,9 +292,9 @@ header.masthead {
       margin: 30px 0; }
 
 .portfolio-modal .close-modal {
-  position: absolute;
+  position: sticky;
   top: 25px;
-  right: 25px;
+  left: 100%;
   width: 75px;
   height: 75px;
   cursor: pointer;
