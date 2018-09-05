@@ -176,3 +176,6 @@ ul.skill-icon:hover li:before{
 		opacity: 0;
 	}
 }
+.modal-body li{
+	font-size: 18pt;
+}
